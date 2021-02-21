@@ -20,7 +20,7 @@ import android.support.test.espresso.action.ViewActions;
 import com.amazonaws.devicefarm.android.referenceapp.R;
 import com.amazonaws.devicefarm.android.referenceapp.RegularExpressionMatcher;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;

@@ -17,7 +17,7 @@ package com.amazonaws.devicefarm.android.referenceapp.Categories.Inputs;
 
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * Tests for toggle buttons

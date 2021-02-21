@@ -25,8 +25,8 @@ import android.test.ActivityInstrumentationTestCase2;
 import com.amazonaws.devicefarm.android.referenceapp.Activities.MainActivity;
 import com.amazonaws.devicefarm.android.referenceapp.Util.ScreenShot;
 
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
@@ -43,7 +43,7 @@ import static org.hamcrest.Matchers.not;
 /**
  * The base Espresso class for all the Espresso tests
  */
-@Ignore
+@Disabled
 public abstract class BaseADFTest extends ActivityInstrumentationTestCase2<MainActivity> {
 
     public BaseADFTest() {

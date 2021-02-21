@@ -18,12 +18,12 @@ package com.amazonaws.devicefarm.android.referenceapp.Categories.Native;
 import com.amazonaws.devicefarm.android.referenceapp.R;
 import com.amazonaws.devicefarm.android.referenceapp.ViewPagerTestBase;
 
-import org.junit.Ignore;
+import org.junit.jupiter.api.Disabled;
 
 /**
  * Base for native tests
  */
-@Ignore
+@Disabled
 public abstract class NativeBase extends ViewPagerTestBase {
     @Override
     protected String getClassName() {

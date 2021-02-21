@@ -17,7 +17,7 @@ package com.amazonaws.devicefarm.android.referenceapp.Categories.Native;
 
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.swipeUp;

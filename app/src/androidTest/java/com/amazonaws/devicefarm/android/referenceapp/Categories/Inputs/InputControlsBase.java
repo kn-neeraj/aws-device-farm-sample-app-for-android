@@ -18,12 +18,12 @@ package com.amazonaws.devicefarm.android.referenceapp.Categories.Inputs;
 import com.amazonaws.devicefarm.android.referenceapp.R;
 import com.amazonaws.devicefarm.android.referenceapp.ViewPagerTestBase;
 
-import org.junit.Ignore;
+import org.junit.jupiter.api.Disabled;
 
 /**
  * A base class for all input controls
  */
-@Ignore
+@Disabled
 public abstract class InputControlsBase extends ViewPagerTestBase {
     @Override
     protected String getClassName() {

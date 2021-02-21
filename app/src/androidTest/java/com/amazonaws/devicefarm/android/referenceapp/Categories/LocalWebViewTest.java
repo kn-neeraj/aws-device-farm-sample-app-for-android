@@ -35,7 +35,7 @@ import static android.support.test.espresso.web.webdriver.DriverAtoms.webKeys;
 import static org.hamcrest.CoreMatchers.containsString;
 
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * Tests for a hybrid local web view
